@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        tools:context=".Ordered_page"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+
+
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:elevation="2dp">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="120dp"
+                android:layout_height="136dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="260dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/ghost"
+                android:paddingLeft="15dp"
+                android:paddingTop="23dp"
+                android:paddingBottom="23dp"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:layout_width="107dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/burger" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtfoodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="16dp"
+                android:text="Cheese Burger"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+
+                android:layout_width="20dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/rupee_icon"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="173dp"
+                    android:layout_marginTop="45dp"
+
+                    android:text="156.3"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="45dp"
+
+                    android:text="X4"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="80dp">
+
+                <ImageButton
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+
+
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/location20"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="8dp"
+
+                    android:text="Manipal,India" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnStartOrdering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="220dp"
+                android:text="Cancel Order"
+                android:backgroundTint="@color/bgColor"/>
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
